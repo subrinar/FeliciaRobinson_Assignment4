@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Felicia Robinson Assignment 04</title>
+	<meta name="description" content="Assignment of art gallery">
+	<meta name="keywords" content="art, gallery, toronto, andrea, drea, simone">
+	<meta name="author" content="Felicia Robinson">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+	<link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="wrapper" class="top">
+		<header>
+			<div id="logo"></div>
+			<h1>Drea Simone</h1>
+			<i id="navbutton" class="fa fa-bars fa-3x"></i>
+			<nav>	
+				<ul>
+					<li><a href="index.html" class="active">home</a></li>
+			    <li><a href="gallery.html">gallery</a></li>
+			    <li><a href="about.html">about</a></li>
+			    <li><a href="contact.html">contact</a></li>
+				</ul>
+			</nav>	
+		</header>
+		<section id="home">
+			<div class="container">
+					<h1>Feature Gallery</h1>
+					<div id="slider">
+					  <a href="#" class="control_next"><i class="fa fa-angle-right fa-3x"></i></a>
+					  <a href="#" class="control_prev"><i class="fa fa-angle-left fa-3x"></i></a>
+					  <ul>
+					    <li><img src="images/citylegs_1080x500.gif"></li>
+					    <li><img src="images/bathtime_1080x500.gif"/></li>
+					    <li><img src="images/flowers_1080x500.gif"/></li>
+					    <li><img src="images/stillness_1080x500.gif"/></li>
+					  </ul>  
+				</div>
+				<div class="slider_option">
+				  <input type="checkbox" id="checkbox">
+				  <label for="checkbox">Autoplay Slider</label>
+				</div>
+			</div> <!-- /container	 --> 
+		</section> <!-- /home -->
+		<section id="main">
+			<div class="container"> 
+				<h1>Sneak Preview</h1>
+					<ul class="ul_main"> 
+						<li>
+							<article><h3>Woman </h3></article>
+							<a href="images/DSCN6661_600.gif" class="lightbox_trigger" data-title="Apple pie chocolate unerdwear.com chupa chups gummi bears. Cake cotton candy cheesecake gingerbread candy canes topping. Sweet bonbon caramels cookie fruitcake chocolate topping icing.">
+							<img class="right" src="images/DSCN6661_300.gif">
+							</a>
+							<a class="go_to_gallery" href="gallery.html">see more ...</a> 
+						</li>
+						<li>
+							<article><h3>I Can</h3></article>
+							<a href="images/DSCN6823_445x583.gif" class="lightbox_trigger" data-title="Apple pie chocolate unerdwear.com chupa chups gummi bears. Cake cotton candy cheesecake gingerbread candy canes topping. Sweet bonbon caramels cookie fruitcake chocolate topping icing.">
+							<img class="right" src="images/DSCN6823_300.gif">
+							</a>
+							<a class="go_to_gallery" href="gallery.html">see more ...</a> 
+						</li>
+						<li>
+							<article><h3>Flowers</h3></article>
+							<a href="images/flowers_497x402.gif" class="lightbox_trigger" data-title="Apple pie chocolate unerdwear.com chupa chups gummi bears. Cake cotton candy cheesecake gingerbread candy canes topping. Sweet bonbon caramels cookie fruitcake chocolate topping icing.">
+							<img class="right" src="images/flowers_300.gif">
+							</a>
+							<a class="go_to_gallery" href="gallery.html">see more ...</a> 
+						</li>					
+					</ul>				
+			</div> <!-- /container -->	
+		</section> <!-- /main -->
+		<section id="contact">
+			<div class="container">
+				<div class="home_contact">
+					<div class="left home_sendnote_details">
+						<h1>Send me a note</h1>
+						<h3>I would love to hear from you.</h3>
+					</div>	
+					<form id="contactform" class="right home_contactform" name="optionform" method="post" action="index.html">              
+						<input type="text" name="name" id="name" class="contactform" placeholder="Name...">
+	          <input type="email" name="email" id="email" class="contactform" placeholder="Email...">
+	          <input type="tel" pattern="[0-9](10}" name="tel" class="contactform" placeholder="123-456-789"> <br>
+		        <textarea name="message" id="message" class="messagearea" placeholder="Comments..."></textarea>
+	          <button id="btn">Submit</button>
+	        </form> <!--  close form div  -->
+        </div> <!-- .home_contact -->
+			</div>	<!-- .container -->		
+		</section> <!-- /contact -->
+
+		<div id="back-top">
+			<a href=".top" class="go-top"><span></span>Back to Top</a>				
+		</div>
+		<footer>	
+			<div class="container">		
+				Copyright 2014 - Felicia Robinson
+			</div>
+		</footer>
+	</div>	<!-- /wrapper -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/felicia.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
